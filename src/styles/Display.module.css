@@ -1,0 +1,12 @@
+.display-container{
+    width: 90%;
+    margin:0 auto;
+}
+
+.display{
+    width: 100%;
+    border: 3px solid gray;
+    border-radius: 4px;
+    font-size-adjust: 1rem;
+    font-weight: 700;
+}

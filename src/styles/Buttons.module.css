@@ -1,0 +1,16 @@
+.b-container{
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+grid-gap: 10px;
+}
+
+.b-container>button:hover{
+  background-color: rgb(235, 226, 226);
+  color: green;
+  border: 2px solid green;
+}
+
+.b-container>:nth-child(14){
+  grid-row: 3/5;
+  grid-column: 4/5;
+}
