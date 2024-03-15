@@ -29,6 +29,8 @@ const App = () => {
 
   const onButtonClicked = (buttonText) => {
     if (buttonText === "Del") {
+      setCalVal(calVal.slice(0,-1))
+      
     } else if (buttonText === "=") {
       const result= eval(calVal)
       setCalVal(result)
